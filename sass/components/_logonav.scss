@@ -1,0 +1,129 @@
+span {
+  color: var(--accent-color);
+}
+.logo {
+  margin-right: 93px;
+
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--title-text-color);
+}
+span {
+  color: var(--accent-color);
+}
+.logo {
+  margin-right: 93px;
+
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--title-text-color);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+  position: relative;
+}
+
+.link.current::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 76px;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+.aut-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.aut-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.aut-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.aut-nav .link:hover,
+.aut-nav .link:focus {
+  color: var(--accent-color);
+}
+.aut-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.aut-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+.link-icon {
+  fill: currentColor;
+  vertical-align: middle;
+}

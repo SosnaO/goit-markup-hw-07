@@ -5,6 +5,7 @@
  ссылки -  #2196F3;  
   цвет фона  "Наша команда" #F5F4FA;
   */
+/*
 img {
   display: block;
   max-width: 100%;
@@ -465,11 +466,11 @@ textarea {
 }
 
 /*  section*/
+
 .section-title {
   color: var(--title-text-color);
   margin-top: 0;
 }
-
 /*form*/
 .modal-header {
   left: 576px;
@@ -857,8 +858,6 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-
-
 
 /*portfolio*/
 li.item {
