@@ -14,18 +14,13 @@
   cursor: pointer;
   width: 370px;
   height: 404px;
+
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 
-/*
-.cards:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-*/
 .cards .link {
   display: block;
 }
@@ -59,9 +54,11 @@
 }
 .text-thumb {
   padding: 63px 24px;
+
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
+
   color: var(--primary-white-color);
 }
 .social-link {
@@ -73,6 +70,7 @@
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover,
   &:focus {
     @extend %color;
@@ -88,14 +86,7 @@
     @extend %color;
   }
 }
-/*
-.seti-icon:hover,
-.seti-icon:focus,
-.social-link:hover,
-.social-link:focus {
-  @extend %color;
-}
-*/
+
 .websocial-list {
   display: flex;
   padding: 0px;

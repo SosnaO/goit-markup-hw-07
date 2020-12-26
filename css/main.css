@@ -568,7 +568,6 @@ span {
 .checkbox-label {
   display: inline-flex;
   align-items: center;
-  font-weight: normal;
   font-size: 12px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -619,8 +618,6 @@ span {
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -639,7 +636,6 @@ span {
 
 .form-label {
   margin-bottom: 4px;
-  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
 }
@@ -685,7 +681,6 @@ span {
   height: 96px;
   left: 592px;
   top: 530px;
-  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -843,7 +838,6 @@ span {
 }
 
 .text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
@@ -1156,7 +1150,6 @@ header {
 }
 
 .portfolio-list {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   margin: 0px;
@@ -1190,12 +1183,6 @@ header {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/*
-.cards:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-*/
 .cards .link {
   display: block;
 }
@@ -1255,14 +1242,6 @@ header {
   fill: currentColor;
 }
 
-/*
-.seti-icon:hover,
-.seti-icon:focus,
-.social-link:hover,
-.social-link:focus {
-  @extend %color;
-}
-*/
 .websocial-list {
   display: flex;
   padding: 0px;
