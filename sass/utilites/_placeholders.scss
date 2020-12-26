@@ -12,3 +12,8 @@
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+
+%form {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
