@@ -19,30 +19,9 @@ span {
 .link:focus {
   color: var(--title-text-color);
 }
-span {
-  color: var(--accent-color);
-}
-.logo {
-  margin-right: 93px;
-  color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
-.link:hover,
-.link:focus {
-  color: var(--title-text-color);
-}
+
 .main-nav {
-  display: flex;
-  align-items: center;
+  @extend %flex-row;
 }
 .site-nav {
   display: flex;

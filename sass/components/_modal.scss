@@ -1,7 +1,6 @@
 .button {
   @extend %flex-jus;
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  @extend %color;
   text-decoration: none;
   border: none;
   width: 200px;
@@ -82,13 +81,10 @@
 .checkbox-label {
   display: inline-flex;
   align-items: center;
-
   font-weight: normal;
   font-size: 12px;
   line-height: 1.71px;
-
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 .checkbox {
@@ -117,7 +113,7 @@
   letter-spacing: 0.03em;
   padding-bottom: 12px;
   margin: 0px;
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .form {

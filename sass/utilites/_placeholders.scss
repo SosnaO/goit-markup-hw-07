@@ -7,3 +7,8 @@
   align-items: center;
   justify-content: center;
 }
+
+%color {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}

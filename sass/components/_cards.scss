@@ -54,14 +54,10 @@
 }
 .text-thumb {
   padding: 63px 24px;
-
   font-size: 18px;
   line-height: 1.56;
-  /* or 156% */
-
   letter-spacing: 0.03em;
-
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .social-link {
   display: flex;
@@ -84,8 +80,7 @@
 .seti-icon:focus,
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  @extend %color;
 }
 
 .websocial-list {
