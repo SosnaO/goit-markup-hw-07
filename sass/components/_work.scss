@@ -82,9 +82,8 @@
   margin-right: 0;
 }
 .social-list {
-  display: flex;
+  @extend %flex-row;
   justify-content: space-between;
-  align-items: center;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;

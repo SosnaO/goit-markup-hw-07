@@ -29,14 +29,13 @@
   color: var(--primary-text-color);
 }
 .features-item {
+  @extend %flex-jus;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   border: 1px solid #f5f4fa;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

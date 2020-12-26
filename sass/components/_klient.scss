@@ -1,11 +1,9 @@
 /*klient*/
 
 .klient {
+  @extend %flex-jus;
   padding-bottom: 94px;
   padding-top: 94px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .klient-title {
@@ -25,6 +23,7 @@
 }
 
 .klient-element {
+  @extend %flex-jus;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -32,9 +31,7 @@
   border-radius: 4px;
   margin-right: 30px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .klient-element:nth-child(6n) {
@@ -48,10 +45,7 @@
 }
 
 .klient-icon {
-  display: flex;
+  @extend %flex-jus;
   height: 50px;
   fill: currentColor;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
