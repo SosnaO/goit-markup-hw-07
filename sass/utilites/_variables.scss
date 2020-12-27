@@ -1,4 +1,25 @@
+header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+.section-title {
+  color: var(--title-text-color);
+  margin-top: 0;
+}
+
 ul {
+  list-style: none;
+}
+ul.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+li.item {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 
@@ -13,16 +34,8 @@ h2,
 h3 {
   margin: 0px;
 }
-ul.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
 
-.section-title {
-  color: var(--title-text-color);
-  margin-top: 0;
-}
+/*portfolio*/
 
 /*main*/
 /*  hero*/
