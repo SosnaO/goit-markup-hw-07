@@ -20,21 +20,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
 
-.container-hero {
-  @extend %flex-row;
-  flex-direction: column;
-}
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-  margin: 0;
+  &-container {
+    @extend %flex-row;
+    flex-direction: column;
+  }
+  &-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin: 0;
+  }
 }
 
 .button {
