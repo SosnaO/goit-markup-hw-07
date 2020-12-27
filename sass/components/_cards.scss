@@ -1,11 +1,4 @@
 /*cards*/
-.cards:nth-child(3n) {
-  margin-right: 0px;
-}
-
-.cards:nth-child(n + 7) {
-  margin-bottom: 0px;
-}
 
 .cards {
   display: block;
@@ -15,28 +8,29 @@
   width: 370px;
   height: 404px;
 
+  &:nth-child(3n) {
+    margin-right: 0px;
+  }
+
+  &:nth-child(n + 7) {
+    margin-bottom: 0px;
+  }
+  &-thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  & .link {
+    display: block;
+  }
+
+  &:hover .text-overlay {
+    transform: translateY(0);
+  }
+
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-}
-
-.cards .link {
-  display: block;
-}
-
-.card-content {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  border-top-color: var(--primary-white-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
-}
-.cards-thumb {
-  position: relative;
-  overflow: hidden;
 }
 
 .text-overlay {
@@ -49,47 +43,40 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards:hover .text-overlay {
-  transform: translateY(0);
-}
 .text-thumb {
   padding: 63px 24px;
-
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-
   color: var(--primary-white-color);
 }
-.social-link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  border-radius: 0px 0px 4px 4px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+/*Название постеров*/
 
-  &:hover,
-  &:focus {
-    @extend %color;
-  }
+.card-content {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-top-color: var(--primary-white-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding-bottom: 4px;
 }
 
-.seti-icon {
-  display: inline-block;
-  margin: 12px;
-  fill: currentColor;
-  &:hover,
-  &:focus {
-    @extend %color;
-  }
-}
-
-.websocial-list {
-  display: flex;
-  padding: 0px;
+.portfolio-list {
+  font-size: 16px;
+  line-height: 1.87;
   margin: 0px;
-  cursor: pointer;
+}
+.portfolio-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }

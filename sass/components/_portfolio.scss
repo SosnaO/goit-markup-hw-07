@@ -66,24 +66,3 @@ header {
   display: flex;
   justify-content: center;
 }
-
-/*portfolio*/
-.portfolio-title {
-  color: var(--title-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  padding-bottom: 4px;
-}
-
-.portfolio-list {
-  font-size: 16px;
-  line-height: 1.87;
-  margin: 0px;
-}
-.portfolio-nav {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
