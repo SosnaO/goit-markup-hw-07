@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-.button, .social-link:hover, .social-link:focus, .seti-icon:hover, .seti-icon:focus, .button-nav .link:hover, .button-nav .link:focus {
+.social-link:hover, .social-link:focus, .seti-icon:hover, .seti-icon:focus, .button-nav .link:hover, .button-nav .link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -19,6 +19,23 @@
 .form-img:focus, .form-comment:focus, .form-comment:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
+}
+
+.button, .button-submit, .button-mailing {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  outline: transparent;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 ul {
@@ -487,20 +504,9 @@ span {
 }
 
 .button {
-  text-decoration: none;
-  border: none;
-  width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  outline: transparent;
 }
 
 .backdrop {
@@ -693,24 +699,10 @@ span {
 }
 
 .button-submit {
-  width: 200px;
-  height: 50px;
   left: 700px;
   top: 712px;
-  border: none;
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
   margin-top: 30px;
   margin-bottom: 40px;
-  text-decoration: none;
-  cursor: pointer;
-  outline: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -937,6 +929,16 @@ span {
   padding-bottom: 60px;
 }
 
+.footer-list {
+  padding: 0px;
+  list-style: none;
+  height: 81px;
+  width: 231px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .adress {
   background-color: var(--primary-bg-color);
   color: var(--primary-white-color);
@@ -944,6 +946,11 @@ span {
   line-height: 1.71;
   display: flex;
   align-items: baseline;
+}
+
+.adress-list {
+  margin-top: 20px;
+  margin-right: 70px;
 }
 
 .adress .logo {
@@ -972,27 +979,12 @@ span {
   text-decoration: none;
 }
 
-.adress-list {
-  margin-top: 20px;
-  margin-right: 70px;
-}
-
-.footer-list {
-  padding: 0px;
-  list-style: none;
-  height: 81px;
-  width: 231px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.adress-soc {
+.social {
   width: 206px;
   height: 80px;
 }
 
-.adress-slogan {
+.social-slogan {
   width: 145px;
   font-weight: bold;
   font-size: 14px;
@@ -1064,23 +1056,11 @@ span {
 
 .button-mailing {
   height: 50px;
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  color: var(--primary-white-color);
   margin-left: 12px;
   padding-left: 29px;
   padding-right: 28px;
   padding-top: 10px;
   padding-bottom: 10px;
-  outline: transparent;
-  border: none;
 }
 
 .mailing-send {
