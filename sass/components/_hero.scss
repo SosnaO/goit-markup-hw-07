@@ -21,10 +21,6 @@
   background-size: cover;
   background-position: center;
 
-  &-container {
-    @extend %flex-row;
-    flex-direction: column;
-  }
   &-title {
     font-weight: 900;
     font-size: 44px;

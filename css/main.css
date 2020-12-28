@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.main-nav, .hero-container, .networks, .button-mailing {
+.main-nav, .networks, .button-mailing {
   display: flex;
   align-items: center;
 }
@@ -37,50 +37,52 @@
   cursor: pointer;
 }
 
-header {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bg-color: #2f303a;
 }
 
-.section-title {
-  color: var(--title-text-color);
-  margin-top: 0;
+/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/raleway-v18-latin-700.woff2") format("woff2"), url("/fonts/raleway-v18-latin-700.woff") format("woff");
 }
 
-ul {
-  list-style: none;
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("/fonts/roboto-v20-latin-regular.woff") format("woff");
 }
 
-ul.list {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("/fonts/roboto-v20-latin-500.woff2") format("woff2"), url("/fonts/roboto-v20-latin-500.woff") format("woff");
 }
 
-li.item {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/roboto-v20-latin-700.woff2") format("woff2"), url("/fonts/roboto-v20-latin-700.woff") format("woff");
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0px;
-}
-
-/*portfolio*/
-/*main*/
-/*  hero*/
-textarea {
-  resize: none;
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""), url("/fonts/roboto-v20-latin-900.woff2") format("woff2"), url("/fonts/roboto-v20-latin-900.woff") format("woff");
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -351,14 +353,6 @@ summary {
   display: list-item;
 }
 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --primary-bg-color: #2f303a;
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -366,6 +360,49 @@ summary {
   padding-bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+li.item {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+textarea {
+  resize: none;
 }
 
 body {
@@ -499,10 +536,6 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hero-container {
-  flex-direction: column;
 }
 
 .hero-title {
