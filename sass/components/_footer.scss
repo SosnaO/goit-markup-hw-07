@@ -17,6 +17,8 @@
 .adress {
   background-color: var(--primary-bg-color);
   color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   display: flex;
@@ -45,6 +47,8 @@
   }
   &-link {
     color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
@@ -57,8 +61,8 @@
 
   &-slogan {
     width: 145px;
-
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -106,6 +110,7 @@
   padding-left: 93px;
 
   &-slogan {
+    font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;

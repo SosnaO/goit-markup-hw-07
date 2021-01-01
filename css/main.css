@@ -45,44 +45,46 @@
   --primary-bg-color: #2f303a;
 }
 
-/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/raleway-v18-latin-900.woff2") format("woff2"), url("/fonts/raleway-v18-latin-900.woff") format("woff");
+}
+
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/fonts/raleway-v18-latin-700.woff2") format("woff2"), url("/fonts/raleway-v18-latin-700.woff") format("woff");
+  src: url("/fonts/raleway-v18-latin-700.woff2") format("woff2"), url("/fonts/raleway-v18-latin-700.woff") format("woff");
 }
 
-/* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("/fonts/roboto-v20-latin-regular.woff") format("woff");
+  src: url("/fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("/fonts/roboto-v20-latin-regular.woff") format("woff");
 }
 
-/* roboto-500 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("/fonts/roboto-v20-latin-500.woff2") format("woff2"), url("/fonts/roboto-v20-latin-500.woff") format("woff");
+  src: url("/fonts/roboto-v20-latin-500.woff2") format("woff2"), url("/fonts/roboto-v20-latin-500.woff") format("woff");
 }
 
-/* roboto-700 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/fonts/roboto-v20-latin-700.woff2") format("woff2"), url("/fonts/roboto-v20-latin-700.woff") format("woff");
+  src: url("/fonts/roboto-v20-latin-700.woff2") format("woff2"), url("/fonts/roboto-v20-latin-700.woff") format("woff");
 }
 
-/* roboto-900 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("/fonts/roboto-v20-latin-900.woff2") format("woff2"), url("/fonts/roboto-v20-latin-900.woff") format("woff");
+  src: url("/fonts/roboto-v20-latin-900.woff2") format("woff2"), url("/fonts/roboto-v20-latin-900.woff") format("woff");
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -408,7 +410,7 @@ textarea {
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -423,7 +425,7 @@ span {
 .logo {
   margin-right: 93px;
   color: var(--title-text-color);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -492,6 +494,7 @@ span {
 
 .aut-nav .link {
   color: var(--primary-text-color);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -539,6 +542,7 @@ span {
 }
 
 .hero-title {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -987,6 +991,8 @@ span {
 .adress {
   background-color: var(--primary-bg-color);
   color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   display: flex;
@@ -1019,6 +1025,8 @@ span {
 
 .adress-link {
   color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
@@ -1031,7 +1039,8 @@ span {
 
 .social-slogan {
   width: 145px;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -1072,6 +1081,7 @@ span {
 }
 
 .mailing-slogan {
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

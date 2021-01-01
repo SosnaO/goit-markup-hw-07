@@ -6,50 +6,49 @@
   --primary-bg-color: #2f303a;
 }
 
-/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/fonts/raleway-v18-latin-900.woff2") format("woff2"),
+    url("/fonts/raleway-v18-latin-900.woff") format("woff");
+}
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-
-  src: local(""), url("/fonts/raleway-v18-latin-700.woff2") format("woff2"),
+  src: url("/fonts/raleway-v18-latin-700.woff2") format("woff2"),
     url("/fonts/raleway-v18-latin-700.woff") format("woff");
 }
 
-/* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/fonts/roboto-v20-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/roboto-v20-latin-regular.woff")
-      format("woff");
+  src: url("/fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    url("/fonts/roboto-v20-latin-regular.woff") format("woff");
 }
 
-/* roboto-500 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("/fonts/roboto-v20-latin-500.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/roboto-v20-latin-500.woff")
-      format("woff");
+  src: url("/fonts/roboto-v20-latin-500.woff2") format("woff2"),
+    url("/fonts/roboto-v20-latin-500.woff") format("woff");
 }
-/* roboto-700 - latin */
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/fonts/roboto-v20-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/roboto-v20-latin-700.woff")
-      format("woff");
+  src: url("/fonts/roboto-v20-latin-700.woff2") format("woff2"),
+    url("/fonts/roboto-v20-latin-700.woff") format("woff");
 }
-/* roboto-900 - latin */
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: local(""), url("/fonts/roboto-v20-latin-900.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("/fonts/roboto-v20-latin-900.woff")
-      format("woff");
+  src: url("/fonts/roboto-v20-latin-900.woff2") format("woff2"),
+    url("/fonts/roboto-v20-latin-900.woff") format("woff");
 }
