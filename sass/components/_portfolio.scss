@@ -1,5 +1,5 @@
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .flex-container {
@@ -17,7 +17,7 @@
 
 .button-nav .link {
   display: inline-block;
-  color: var(--title-text-color);
+  color: $title-text-color;
   font-family: inherit;
   background-color: #f5f4fa;
   font-weight: 500;

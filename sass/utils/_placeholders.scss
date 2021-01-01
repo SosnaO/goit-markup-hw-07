@@ -9,13 +9,13 @@
 }
 
 %color {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: $accent-color;
+  color: $primary-white-color;
 }
 
 %form {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  fill: $accent-color;
+  border: 1px solid $accent-color;
 }
 %button {
   width: 200px;
@@ -24,8 +24,8 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background-color: $accent-color;
+  color: $primary-white-color;
   outline: transparent;
   border: none;
   text-decoration: none;
@@ -34,5 +34,5 @@
   cursor: pointer;
 }
 
-$title-logo: "Raleway";
 $title-fonts: "Roboto";
+$title-logo: "Raleway";

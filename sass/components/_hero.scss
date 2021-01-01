@@ -4,7 +4,7 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
 
   max-width: 1600px;
   height: 600px;
@@ -28,7 +28,7 @@
     line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     margin: 0;
   }
 }

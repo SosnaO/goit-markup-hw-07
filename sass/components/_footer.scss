@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -15,8 +15,8 @@
 }
 
 .adress {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-white-color);
+  background-color: $primary-bg-color;
+  color: $primary-white-color;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -29,10 +29,10 @@
     margin-right: 70px;
   }
   & .logo {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accent-color;
     }
   }
   & .link {
@@ -42,11 +42,11 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover,
     &:focus {
-      color: var(--accent-color);
+      color: $accent-color;
     }
   }
   &-link {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -67,7 +67,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     padding-bottom: 20px;
     margin: 0px;
   }
@@ -116,7 +116,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
   }
   &-field {
     display: flex;
@@ -132,8 +132,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: transparent;
-    background-color: var(--primary-bg-color);
-    color: var(--primary-text-color);
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
   }
 }
 
