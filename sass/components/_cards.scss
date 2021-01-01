@@ -45,6 +45,9 @@
 }
 .text-thumb {
   padding: 63px 24px;
+  font-family: $title-fonts;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -63,6 +66,8 @@
 }
 .portfolio-title {
   color: $title-text-color;
+  font-family: $title-fonts;
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -71,6 +76,9 @@
 }
 
 .portfolio-list {
+  font-family: $title-fonts;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   margin: 0px;

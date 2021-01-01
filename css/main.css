@@ -1,46 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/raleway-v18-latin-900.woff2") format("woff2"), url("../fonts/raleway-v18-latin-900.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/raleway-v18-latin-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin-900.woff") format("woff");
-}
-
 .main-nav, .networks, .button-mailing {
   display: flex;
   align-items: center;
@@ -65,6 +23,7 @@
 .button, .button-submit, .button-mailing {
   width: 200px;
   height: 50px;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -447,6 +406,7 @@ span {
   padding-bottom: 32px;
   padding-top: 32px;
   color: #212121;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -486,6 +446,7 @@ span {
 
 .aut-nav .link {
   color: #757575;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -534,6 +495,7 @@ span {
 }
 
 .hero-title {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -582,6 +544,8 @@ span {
 .modal-header {
   left: 576px;
   top: 261px;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
@@ -632,6 +596,9 @@ span {
   display: flex;
   flex-direction: column;
   text-align: left;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -644,6 +611,9 @@ span {
   height: 96px;
   left: 592px;
   top: 530px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -652,6 +622,9 @@ span {
 
 .form-label {
   margin-bottom: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 14px;
 }
@@ -717,6 +690,9 @@ span {
 .checkbox-label {
   display: inline-flex;
   align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -786,7 +762,9 @@ span {
 
 .features-title {
   color: #212121;
-  font-weight: 700;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -796,6 +774,9 @@ span {
 .features-title-text {
   width: 270px;
   height: 75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -810,6 +791,8 @@ span {
 
 .work-title {
   color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.19;
@@ -828,6 +811,8 @@ span {
 
 .flex-element > .subtitle {
   position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -852,6 +837,8 @@ span {
 
 .team-title {
   color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.19;
@@ -872,6 +859,8 @@ span {
 
 .team-name {
   color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -881,6 +870,9 @@ span {
 }
 
 .team-name-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
@@ -923,6 +915,8 @@ span {
 }
 
 .klient-title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -983,6 +977,7 @@ span {
 .adress {
   background-color: #2f303a;
   color: #ffffff;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1017,6 +1012,7 @@ span {
 
 .adress-link {
   color: #ffffff;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1031,8 +1027,9 @@ span {
 
 .social-slogan {
   width: 145px;
+  font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -1073,6 +1070,7 @@ span {
 }
 
 .mailing-slogan {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1137,6 +1135,8 @@ span {
   color: #212121;
   font-family: inherit;
   background-color: #f5f4fa;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -1208,6 +1208,9 @@ span {
 
 .text-thumb {
   padding: 63px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
@@ -1227,6 +1230,8 @@ span {
 
 .portfolio-title {
   color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -1235,6 +1240,9 @@ span {
 }
 
 .portfolio-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   margin: 0px;

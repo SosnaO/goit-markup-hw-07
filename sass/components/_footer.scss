@@ -17,6 +17,7 @@
 .adress {
   background-color: $primary-bg-color;
   color: $primary-white-color;
+  font-family: $title-fonts;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -47,6 +48,7 @@
   }
   &-link {
     color: $primary-white-color;
+    font-family: $title-fonts;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -61,8 +63,9 @@
 
   &-slogan {
     width: 145px;
+    font-family: $title-fonts;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -110,6 +113,7 @@
   padding-left: 93px;
 
   &-slogan {
+    font-family: $title-fonts;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
